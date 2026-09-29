@@ -58,3 +58,52 @@ Risk Classification
 SHAP Explanation
       ↓
 Farmer / Veterinary Decision Support
+
+## 🛠️ Tech Stack
+
+### 💻 Software & Backend
+- **Python** — Core AI/ML and data-processing language
+- **FastAPI** — Backend/API layer
+- **MQTT over TLS** — Secure IoT data communication
+- **PostgreSQL** — Primary database
+- **TimescaleDB** — Time-series sensor data storage
+- **PostGIS** — Geospatial data and herd hotspot mapping
+
+### 🤖 AI / Machine Learning
+- **XGBoost** — Primary risk prediction model
+- **LightGBM** — Alternative gradient-boosting model
+- **Scikit-learn** — Data preprocessing and model evaluation
+- **SHAP** — Explainable AI and feature contribution analysis
+- **LSTM / GRU** — Planned Phase-2 sequence modelling
+- **MLflow** — Model tracking and experiment management
+
+### 📊 Data & Analytics
+- **Pandas** — Data manipulation and analysis
+- **NumPy** — Numerical computation
+- **Matplotlib** — Data visualization
+- **Longitudinal time-series analysis** — Individual cow behaviour and anomaly detection
+
+### 🌐 Frontend & Applications
+- **React** — Web dashboard
+- **GIS Mapping** — Herd-level risk and hotspot visualization
+- **Flutter** — Farmer, veterinarian and field-worker mobile application
+- **Bhashini API** — Multilingual text and voice support
+- **SMS Alerts** — Farmer and veterinary notifications
+
+### 📡 IoT & Hardware Integration
+- **ESP32** — Cow tag and farm gateway
+- **DS18B20** — Temperature sensing
+- **MPU-6050** — Motion/activity sensing
+- **LoRa** — Long-range sensor communication
+- **DHT22** — Environmental temperature and humidity
+- **Milk Conductivity Probe** — Milk conductivity measurement
+- **Load Cell** — Milk-yield / weight measurement
+- **RFID / Barcode** — Cow identification
+- **GPS** — Location tracking
+- **SD Card + GSM** — Offline storage and communication backup
+
+### 🔄 HerdGuard Pipeline
+
+**Sense → Send → Store → Predict → Explain → Act**
+
+IoT sensors collect cow and farm data → secure communication transmits the data → time-series storage maintains longitudinal records → AI/ML predicts risk → SHAP explains the prediction → dashboard, mobile app and SMS deliver decision-support alerts.
