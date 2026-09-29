@@ -59,7 +59,8 @@ SHAP Explanation
       ↓
 Farmer / Veterinary Decision Support
 
-## 🛠️ Tech Stack
+
+##🛠️ Tech Stack
 
 ### 💻 Software & Backend
 - **Python** — Core AI/ML and data-processing language
